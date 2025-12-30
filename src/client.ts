@@ -11,7 +11,7 @@ export class Web2PdfClient {
   constructor(config: Web2PdfConfig) {
     this.apiId = config.apiId;
     this.secretKey = config.secretKey;
-    this.baseUrl = config.baseUrl || "https://web2pdf.com";
+    this.baseUrl = config.baseUrl || "https://web2pdf.dev";
   }
 
   /**

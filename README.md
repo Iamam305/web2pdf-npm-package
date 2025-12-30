@@ -1,6 +1,6 @@
-# web2pdf
+# web2pdf.dev
 
-Convert HTML, URLs, and JSX to PDF or screenshots using the [web2pdf.com](https://web2pdf.com) API.
+Convert HTML, URLs, and JSX to PDF or screenshots using the [web2pdf.dev](https://web2pdf.dev) API.
 
 ## Features
 
@@ -15,7 +15,7 @@ Convert HTML, URLs, and JSX to PDF or screenshots using the [web2pdf.com](https:
 ## Installation
 
 ```bash
-npm install web2pdf
+npm install web2pdf.dev
 ```
 
 ### Optional Dependencies
@@ -35,7 +35,7 @@ npm install node-fetch
 ## Quick Start
 
 ```typescript
-import { createClient, createPdf, createScreenshot } from "web2pdf";
+import { createClient, createPdf, createScreenshot } from "web2pdf.dev";
 
 // Create a client
 const client = createClient({
@@ -65,9 +65,9 @@ Creates a Web2PDF client instance.
 
 **Parameters:**
 
-- `config.apiId` (string): Your API ID from web2pdf.com
-- `config.secretKey` (string): Your secret key from web2pdf.com
-- `config.baseUrl` (string, optional): Base URL for the API (default: `https://web2pdf.com`)
+- `config.apiId` (string): Your API ID from web2pdf.dev
+- `config.secretKey` (string): Your secret key from web2pdf.dev
+- `config.baseUrl` (string, optional): Base URL for the API (default: `https://web2pdf.dev`)
 
 **Returns:** `Web2PdfClient` instance
 
@@ -136,7 +136,7 @@ Generates a screenshot from a URL, HTML, or JSX element.
 ### Convert URL to PDF
 
 ```typescript
-import { createClient, createPdf } from "web2pdf";
+import { createClient, createPdf } from "web2pdf.dev";
 
 const client = createClient({
   apiId: "YOUR_API_ID",
@@ -174,7 +174,7 @@ const result = await createPdf(client, {
 
 ```typescript
 import React from "react";
-import { createClient, createPdf } from "web2pdf";
+import { createClient, createPdf } from "web2pdf.dev";
 
 const client = createClient({
   apiId: "YOUR_API_ID",
@@ -200,7 +200,7 @@ const result = await createPdf(client, {
 ### Convert to Screenshot
 
 ```typescript
-import { createClient, createScreenshot } from "web2pdf";
+import { createClient, createScreenshot } from "web2pdf.dev";
 
 const client = createClient({
   apiId: "YOUR_API_ID",
@@ -223,7 +223,7 @@ const result = await createScreenshot(client, {
 ### Browser Example
 
 ```typescript
-import { createClient, createPdf } from "web2pdf";
+import { createClient, createPdf } from "web2pdf.dev";
 
 const client = createClient({
   apiId: "YOUR_API_ID",
@@ -247,7 +247,7 @@ URL.revokeObjectURL(url);
 ### Node.js Example
 
 ```typescript
-import { createClient, createPdf } from "web2pdf";
+import { createClient, createPdf } from "web2pdf.dev";
 import fs from "fs";
 
 const client = createClient({
@@ -293,4 +293,4 @@ ISC
 
 ## Support
 
-For API support, visit [web2pdf.com](https://web2pdf.com)
+For API support, visit [web2pdf.dev](https://web2pdf.dev)

@@ -1,7 +1,7 @@
 {
-  "name": "web2pdf",
-  "version": "1.0.0",
-  "description": "Convert HTML, URLs, and JSX to PDF or screenshots using web2pdf.com API",
+  "name": "web2pdf.dev",
+  "version": "1.0.1",
+  "description": "Convert HTML, URLs, and JSX to PDF or screenshots using web2pdf.dev API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
